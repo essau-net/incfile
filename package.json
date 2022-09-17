@@ -5,5 +5,11 @@
   "main": "index.js",
   "repository": "https://github.com/hecttoressau/incfile.git",
   "author": "hecttoressau",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.3"
+  }
 }
