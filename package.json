@@ -1,15 +1,21 @@
 {
   "name": "incfile",
   "version": "1.0.0",
-  "description": "incfile technical test",
+  "description": "eslint rules for incfile technical test ",
   "main": "index.js",
   "repository": "https://github.com/hecttoressau/incfile.git",
   "author": "hecttoressau",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint ."
   },
   "devDependencies": {
+    "@eslint/create-config": "^0.3.1",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
     "jest": "^29.0.3"
-  }
+  },
+  "private": true
 }
