@@ -1,0 +1,9 @@
+{
+  "name": "incfile",
+  "version": "1.0.0",
+  "description": "incfile technical test",
+  "main": "index.js",
+  "repository": "https://github.com/hecttoressau/incfile.git",
+  "author": "hecttoressau",
+  "license": "MIT"
+}
