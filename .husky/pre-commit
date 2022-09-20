@@ -1,0 +1,33 @@
+#!/bin/sh
+# A simple script with a function...
+. "$(dirname -- "$0")/_/husky.sh"
+CURRENT_PATH="$PWD"
+NO_CHANGES=0
+file_changes=$(git diff --diff-filter=d --staged --name-only)
+
+pre_commit_checks()
+{
+  yarn precommit
+}
+
+are_changes()
+{
+  if [ -z "${file_changes}"]
+  then
+    return 0
+  fi
+
+  return 1
+}
+
+main()
+{
+  if [ are_changes ]; then
+    pre_commit_checks
+  fi
+}
+
+###
+# Main body of script starts here
+###
+main
