@@ -2171,6 +2171,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dotenv@npm:^16.0.2":
+  version: 16.0.2
+  resolution: "dotenv@npm:16.0.2"
+  checksum: ca8f9ca2d67929c7771069f4c31b4e46b9932621009e658e5afd655dde2d69b77642bf36dbc9e72bc170523dfd908a9ee41c26f034c1fdc605ace3b1b4b10faf
+  languageName: node
+  linkType: hard
+
 "electron-to-chromium@npm:^1.4.251":
   version: 1.4.254
   resolution: "electron-to-chromium@npm:1.4.254"
@@ -3158,6 +3165,7 @@ __metadata:
     "@commitlint/cli": ^17.1.2
     "@commitlint/config-conventional": ^17.1.0
     "@eslint/create-config": ^0.3.1
+    dotenv: ^16.0.2
     eslint: ^8.2.0
     eslint-config-airbnb-base: ^15.0.0
     eslint-plugin-import: ^2.26.0
