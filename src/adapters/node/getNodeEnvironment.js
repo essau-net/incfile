@@ -5,7 +5,7 @@ const isValidNodeEnvironment = require('../../utils/checkers/node-environment');
 const getNodeEnvironment = () => {
   if (isValidNodeEnvironment(nodeEnv)) return nodeEnv;
 
-  throw new TypeError('Invalid assignment to const "NODE_ENV"');
+  throw new TypeError(`Invalid assignment to const "NODE_ENV" ${nodeEnv}`);
 };
 
 module.exports = getNodeEnvironment;

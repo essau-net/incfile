@@ -1,4 +1,4 @@
-const nodeEnvironments = require('../constants');
+const { nodeEnvironments } = require('../constants');
 
 const isProduction = (variable) => variable === nodeEnvironments.PROD;
 const isDevelopment = (variable) => variable === nodeEnvironments.DEV;
