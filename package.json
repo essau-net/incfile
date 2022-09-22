@@ -10,7 +10,7 @@
     "test": "jest",
     "lint": "eslint .",
     "postinstall": "husky install",
-    "precommit": "yarn lint && yarn test"
+    "start": "node src/index.js"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
