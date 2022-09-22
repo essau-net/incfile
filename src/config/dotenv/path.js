@@ -8,7 +8,7 @@ const configDotenvPath = () => {
   const nodeEnv = getNodeEnvironment();
   const fileName = `${nodeEnv}.env`;
 
-  const path = join('../../..', fileName);
+  const path = join(__dirname, '../../..', fileName);
   dotenv.config({ path });
 };
 
