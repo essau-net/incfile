@@ -7,7 +7,7 @@ file_changes=$(git diff --diff-filter=d --staged --name-only)
 
 pre_commit_checks()
 {
-  yarn precommit
+  yarn lint
 }
 
 are_changes()
